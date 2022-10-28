@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import { CreateAccount } from "./pages/createAccount";
 import { Feed } from "./pages/feed";
 
 import { Home } from './pages/home'
@@ -16,6 +17,7 @@ function App() {
      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/feed" element={<Feed />} />
      </Routes >
     </Router>

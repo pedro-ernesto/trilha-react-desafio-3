@@ -20,12 +20,10 @@ export const Column = styled.div`
     flex: 1;
 `
 
-export const Row = styled.div`
+export const RowAccount = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 `
 
 
@@ -60,18 +58,28 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
+export const Disclaimer = styled.div`
+    margin-top: 27px;
+`
 
-export const EsqueciText  = styled.p`
+export const SubTitleDisclaimer = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 11px;
+    max-width: 372px;
+`
+
+export const AccountLogin = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 19px;
-
-    color: #E5E044;
-` 
-
-export const CriarText =  styled.button`
+    line-height: 20px;
+`
+export const AccountLoginButton = styled.button`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -80,6 +88,6 @@ export const CriarText =  styled.button`
     outline: none;
     background: transparent;
     border: 1px solid transparent;
-
+    margin-left: 5px;
     color: #23DD7A;
 `
